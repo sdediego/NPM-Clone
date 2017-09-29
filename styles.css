@@ -1,0 +1,269 @@
+body {
+    font-family: "Open Sans","OpenSans",sans-serif;
+}
+
+nav {
+    font-size: 16px;
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 35px;
+}
+
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+.top-left {
+    display: inline-block;
+}
+
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header {
+    background-image: url(images/city-scape.svg);
+    background-color: rgb(32,101,136);
+    height: 400px;
+}
+
+#npm-logo {
+    align-items: center;
+}
+
+.npm-logo {
+    width: 125px;
+    height: 50px;
+    padding: 15px;
+}
+
+.search {
+    float: right;
+    width: 925px;
+    margin-top: 15px;
+}
+
+.search input {
+    height: 40px;
+    outline: none;
+    padding: 3px;
+    width: 85%;
+    border: 1px solid rgb(0,0,0);
+    background-color: rgb(31,82,111);
+}
+
+.search button {
+    height: 45px;
+    outline: none;
+    padding: 3px;
+    width: 12%;
+    background-color: rgb(31,82,111);
+}
+
+.top-sign {
+    display: inline-block;
+    float: right;
+    width: 200px;
+    align-items: center;
+}
+
+.top-sign li {
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+li img {
+    width: 45px;
+    height: 45px;
+    background: transparent;
+}
+
+.top-sign a {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+.building-block {
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 400;
+    margin: 20px 100px 10px;
+    color: rgb(255,255,255);
+}
+
+header p {
+    font-size: 18px;
+    font-weight: 400;
+    width: 45%;
+    margin: 20px 100px 10px;
+    padding-bottom: 20px;
+    color: rgb(255,255,255);
+    box-sizing: border-box;
+}
+
+header .btn {
+    margin: 20px 100px 10px;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 7px 26px 8px 26px;
+    color: rgb(255,255,255);
+    background-color: rgb(240,146,51);
+    text-decoration: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#collaboration {
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(39,53,71);
+}
+
+.collaboration {
+    padding-top: 45px;
+}
+
+.collaboration .col-2 {
+    float: left;
+    width: 40%;
+    margin: 0 5%;
+    color: rgb(255,255,255);
+}
+
+.img-collaboration {
+    display: block;
+    height: auto;
+    margin-left: 80px;
+}
+
+.collaboration h2 {
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.unorder-list {
+    margin-bottom: 10.5px;
+}
+
+.unorder-list li {
+    padding-bottom: 20px;
+}
+
+.btn {
+    left: 10%;
+    bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 7px 26px 8px 26px;
+    color: rgb(255,255,255);
+    background-color: rgb(203,56,55);
+    text-decoration: none;
+}
+
+.collaboration a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+#what-is-npm {
+    background-image: url(images/forklift.svg);
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+.what-npm h3 {
+    position: absolute;
+    font-size: 36px;
+    font-weight: 300;
+    left: 10%;
+    bottom: 225px;
+    color: rgb(255,255,255);
+}
+
+.what-npm p {
+    position: absolute;
+    font-weight: 400;
+    left: 10%;
+    bottom: 180px;
+    width: 25%;
+    padding-top: 10px;
+    color: rgb(255,255,255);
+}
+
+#what-is-npm a {
+    position: absolute;
+    left: 10%;
+    bottom: 130px;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 7px 26px 8px 26px;
+    color: #FFFFFF;
+    background-color: #34495E;
+    text-decoration: none;
+}
+
+#what-can-you-make {
+    background-color: rgb(255,255,255);
+}
+
+#what-can-you-make .container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#what-can-you-make .container h2 {
+    font-size: 36px;
+    margin-top: 20px;
+    width: 100%;
+    color: rgb(83,88,98);
+}
+
+#what-can-you-make .container p {
+    font-size: 16px;
+    width: 100%;
+    color: rgb(135,145,156);
+}
+
+#what-can-you-make .col-3 {
+    float: left;
+    width: 20%;
+    margin: 0 5%;
+}
+
+#what-can-you-make .col-middle {
+    padding: 0 5%;
+}
+
+#what-can-you-make a {
+    color: rgb(208,74,73);
+}
