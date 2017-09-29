@@ -1,0 +1,2 @@
+Imagenes utilizadas en el NPM-Clone.
+La ruta de este directorio debe especificarse en el archivo index.html.
